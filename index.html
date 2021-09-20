@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Cute Charm Calculator</title>
+
+  <!-- FontAwesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="vendor/css/bootstrap.css">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body>
+  
+  <main class="main py-3">
+
+    <div class="c-arrow rounded shadow-sm">
+      <i class="c-arrow__icon fas fa-arrow-down js-scroll js-to-bottom"></i>
+    </div>
+
+    <div class="container">
+      <!-- Header -->      
+      <div class="main__header mb-3">
+        <h1 class="main__title">Pokemon Cute Charm Calculator</h1>
+        <h2 class="main__subtitle">For <b>Gen 4 only</b></h2>
+      </div>
+
+      <div class="row">
+        <!-- Pokemons with Cute Charm List -->
+        <div class="col-12  col-md-6 col-lg-4">
+          <div class="c-cutec">
+            
+            <h2 class="c-cutec__title mb-3">Pokemons with Cute Charm</h2>
+            
+            <div class="table-responsive mt-3">
+              <table class="table table-bordered text-center">
+
+                <thead class="table-dark">
+                  <tr>
+                    <th scope="col">Pokedex ID</th>
+                    <th scope="col">Sprite</th>
+                    <th scope="col">Name</th>
+                  </tr>
+                </thead>
+
+                <tbody class="js-cc-table"></tbody>
+
+              </table>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-8">
+          
+          <div class="row">
+
+            <div class="mb-3 col-6">
+              <label for="trainerID" class="form-label">Trainer ID:</label>
+              <input type="text" class="form-control js-trainer-ID" id="trainerID" placeholder="Trainer ID">
+            </div>
+
+            <div class="mb-3 col-6">
+              <label for="trainerSecretID" class="form-label">Trainer Secret ID:</label>
+              <input type="text" class="form-control js-trainer-secret-ID" id="trainerSecretID" placeholder="Trainer Secret ID">
+            </div>
+
+            <div class="col-12">
+
+              <div class="d-grid gap-2">
+                <button class="btn btn-success js-cc-btn">Calculate</button>
+              </div>
+            
+            </div>
+
+          </div>
+          
+          <div class="c-cutec__result mt-3">
+            <p class="mb-0 p-3">Results:</p>
+            <div class="p-3 js-cc-log"><p>Results will be displayed here once calculated.</p></div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+</body>
+
+  <!-- jQuery -->
+  <script src="vendor/js/jquery.js"></script>
+  <!-- Main JS -->
+  <script src="assets/js/main.js"></script>
+
+</html>

@@ -1,0 +1,62 @@
+[
+  {
+    "id"      : 35,
+    "name"    : "Clefairy",
+    "sprite"  : "assets/img/sprites/35.png"
+  },
+  {
+    "id": 36,
+    "name": "Clefable",
+    "sprite"  : "assets/img/sprites/36.png"
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "sprite"  : "assets/img/sprites/39.png"
+  },
+  {
+    "id": 40,
+    "name": "Wigglytuff",
+    "sprite"  : "assets/img/sprites/40.png"
+  },
+  {
+    "id": 172,
+    "name": "Cleffa",
+    "sprite"  : "assets/img/sprites/172.png"
+  },
+  {
+    "id": 174,
+    "name": "Igglybuff",
+    "sprite"  : "assets/img/sprites/174.png"
+  },
+  {
+    "id": 300,
+    "name": "Skitty",
+    "sprite"  : "assets/img/sprites/300.png"
+  },
+  {
+    "id": 301,
+    "name": "Delcatty",
+    "sprite"  : "assets/img/sprites/301.png"
+  },
+  {
+    "id": 350,
+    "name": "Milotic",
+    "sprite"  : "assets/img/sprites/350.png"
+  },
+  {
+    "id": 428,
+    "name": "Lopunny",
+    "sprite"  : "assets/img/sprites/428.png"
+  },
+  {
+    "id": 572,
+    "name": "Minccino",
+    "sprite"  : "assets/img/sprites/572.png"
+  },
+  {
+    "id": 573,
+    "name": "Cinccino",
+    "sprite"  : "assets/img/sprites/573.png"
+  }
+]

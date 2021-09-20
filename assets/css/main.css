@@ -1,0 +1,63 @@
+/* Global */
+.main {
+  position: relative;
+}
+
+.c-arrow {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+
+  z-index: 99;
+
+  cursor: pointer;
+
+  background-color: #dee2e6;
+
+}
+
+@media( min-width: 768px ) {
+  .c-arrow {
+    display: none;
+  }
+}
+
+.c-arrow__icon {
+  padding: 1rem;
+  transition: all 0.3s;
+
+}
+
+.c-arrow__icon.rotate {
+  transform: rotate(180deg);
+}
+
+/* Main - Header Part */
+.main__header {
+  text-align: center;
+}
+
+.main__title, .main__subtitle {
+  font-weight: 400;
+}
+
+/* Pkms with cc list */
+.c-cutec__title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.c-cutec__sprite {
+  max-width: 50px;
+}
+
+.c-cutec__result {
+
+  border: 1px solid #dee2e6;
+  border-radius: 3px;
+
+}
+
+tbody tr td {
+
+}
